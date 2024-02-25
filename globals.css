@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:var(--www-samsung-com-inter-regular-10-69-font-weight),var(--www-samsung-com-inter-regular-9-49-font-weight),var(--www-samsung-com-inter-bold-15-75-font-weight),var(--www-samsung-com-inter-regular-12-69-font-weight),var(--www-samsung-com-inter-semi-bold-14-63-font-weight),var(--www-samsung-com-inter-bold-12-47-font-weight),var(--www-samsung-com-inter-regular-13-5-font-weight),var(--www-samsung-com-inter-regular-16-73-font-weight),var(--www-samsung-com-inter-bold-10-88-font-weight),var(--www-samsung-com-inter-regular-13-08-font-weight),var(--www-samsung-com-inter-regular-14-88-font-weight),var(--www-samsung-com-inter-regular-13-45-font-weight),var(--www-samsung-com-inter-bold-13-63-font-weight),var(--www-samsung-com-inter-regular-9-19-font-weight),var(--www-samsung-com-inter-bold-16-03-font-weight),var(--www-samsung-com-inter-regular-13-34-font-weight),var(--www-samsung-com-inter-regular-10-88-font-weight),var(--www-samsung-com-inter-regular-12-8-font-weight),var(--www-samsung-com-inter-bold-48-font-weight),var(--www-samsung-com-inter-bold-24-font-weight),var(--www-samsung-com-inter-bold-36-81-font-weight),var(--www-samsung-com-inter-regular-13-02-font-weight),var(--www-samsung-com-inter-semi-bold-15-38-font-weight),var(--www-samsung-com-inter-regular-12-58-font-weight),var(--www-samsung-com-inter-regular-16-45-font-weight),var(--www-samsung-com-inter-regular-13-67-font-weight),var(--www-samsung-com-inter-regular-13-13-font-weight),var(--www-samsung-com-inter-regular-16-31-font-weight),700,var(--www-samsung-com-inter-regular-16-59-font-weight),var(--www-samsung-com-inter-bold-14-77-font-weight),var(--www-samsung-com-inter-regular-11-25-font-weight),var(--www-samsung-com-inter-bold-12-63-font-weight),var(--www-samsung-com-inter-bold-47-06-font-weight),var(--www-samsung-com-inter-bold-12-36-font-weight),var(--www-samsung-com-inter-bold-14-font-weight),var(--www-samsung-com-inter-regular-12-91-font-weight),var(--www-samsung-com-inter-bold-38-font-weight),400,var(--www-samsung-com-inter-bold-13-75-font-weight),var(--www-samsung-com-inter-regular-13-23-font-weight),var(--www-samsung-com-inter-bold-37-11-font-weight),var(--www-samsung-com-inter-bold-16-17-font-weight),var(--www-samsung-com-inter-bold-13-font-weight),var(--www-samsung-com-inter-regular-9-8-font-weight),var(--www-samsung-com-inter-bold-14-25-font-weight),var(--www-samsung-com-inter-bold-14-41-font-weight),var(--www-samsung-com-inter-bold-15-89-font-weight),var(--www-samsung-com-inter-bold-25-38-font-weight),var(--www-samsung-com-inter-regular-15-font-weight),var(--www-samsung-com-inter-regular-13-56-font-weight),var(--www-samsung-com-inter-regular-15-38-font-weight),var(--www-samsung-com-inter-regular-11-06-font-weight)");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
